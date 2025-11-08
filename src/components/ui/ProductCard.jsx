@@ -18,11 +18,13 @@ const ProductCard = ({ data }) => {
   const totalStar = [...avgRatingStar, ...notRatedStar];
 
   return (
-    <div className="bg-white w-full h-full">
-      <div className="text-left">
+    <div className="bg-white w-full h-full relative group">
+      <div className="text-left ">
         <img src={img_link} alt="Card Image" />
         <div className="p-5 space-y-2">
-          <p className="text-2xl text-primary font-semibold whitespace-nowrap">{title}</p>
+          <p className="text-2xl text-primary font-semibold whitespace-nowrap">
+            {title}
+          </p>
           <p className="font-semibold">{category}</p>
           <div className="text-2xl text-complementary font-semibold">
             <span>
@@ -40,9 +42,18 @@ const ProductCard = ({ data }) => {
             <p>{`(${total_comments})`}</p>
           </div>
         </div>
+        <div className="group-hover:opacity-0">
+          <AddToCartBtn text={"Add To Cart"} />
+        </div>
       </div>
-
-      <AddToCartBtn />
+      <div className="absolute w-full h-full bg-white top-0 bottom-0 opacity-50 z-10 group-hover:block hidden">
+        <span className="absolute bottom-0 left-0 right-0">
+          <AddToCartBtn text={"View Details"} />
+        </span>
+      </div>
+      <div className="group-hover:block hidden absolute top-[40%] left-10 right-10 z-20">
+        <AddToCartBtn text={"Add To Cart"} />
+      </div>
     </div>
   );
 };

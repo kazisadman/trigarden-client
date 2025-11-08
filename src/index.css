@@ -6,7 +6,7 @@
 
 @layer components{
     .content-container{
-        @apply w-[min(90%,1680px)] mx-auto py-3
+        @apply w-[min(90%,1680px)] mx-auto py-10
     }
     .mobile-nav-icon{
         @apply text-4xl cursor-pointer text-white
@@ -18,5 +18,12 @@
 
     .show-sm{
         @apply lg:hidden
+    }
+
+    .semi-bold-3xl-text{
+        @apply text-3xl font-semibold py-3
+    }
+    .semi-bold-2xl-text{
+        @apply text-2xl font-semibold py-3
     }
 }

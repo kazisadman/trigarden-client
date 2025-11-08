@@ -1,6 +1,7 @@
 import Categories from "../components/home/categories/Categories";
 import Featured from "../components/home/Featured";
 import Hero from "../components/home/Hero";
+import PlantClinic from "../components/home/PlantClinic";
 import Popular from "../components/home/Popular";
 
 const Homepage = () => {
@@ -10,6 +11,7 @@ const Homepage = () => {
       <Categories />
       <Featured/>
       <Popular/>
+      <PlantClinic/>
     </div>
   );
 };

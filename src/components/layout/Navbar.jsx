@@ -73,15 +73,24 @@ const Navbar = () => {
               </ul>
             </div>
             {/* Call button */}
-           <CtaButton text={'Call Now'} icon={FaPhoneAlt} screen={'lg'}/>
+            <CtaButton
+              text={"Call Now"}
+              icon={FaPhoneAlt}
+              screen={"lg"}
+              color={"complementary"}
+            />
             {/* Search bar */}
             <div className="lg:flex items-center gap-2 bg-transparent border-2 p-1 rounded-lg show-lg">
-              <input className="bg-transparent focus:outline-none p-1" placeholder="Search Item" type="text" />
-              <FaSearch className="text-xl cursor-pointer"/>
+              <input
+                className="bg-transparent focus:outline-none p-1"
+                placeholder="Search Item"
+                type="text"
+              />
+              <FaSearch className="text-xl cursor-pointer" />
             </div>
             {/* User & cart Icon */}
             <div className="mobile-nav-icon flex items-center gap-4">
-              <FaShoppingCart/>
+              <FaShoppingCart />
               <FaUser />
             </div>
           </div>
