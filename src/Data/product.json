@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": 1,
+    "img_link": "https://i.ibb.co/4ZZw9CSS/image-1.png",
+    "title": "Monstera Deliciosa",
+    "category": "Indoor Plant",
+    "price": { "min": 2000, "max": 3400 },
+    "rating": 5,
+    "avg_rating": 5,
+    "total_comments": 24
+  },
+  {
+    "id": 2,
+    "img_link": "https://i.ibb.co/wNy07rbv/image-2.png",
+    "title": "Organic Compost Fertilizer",
+    "category": "Fertilizer",
+    "price": { "min": 60, "max": 440 },
+    "rating": 5,
+    "avg_rating": 4,
+    "total_comments": 12
+  },
+  {
+    "id": 3,
+    "img_link": "https://i.ibb.co/d4H12KYV/image-3.png",
+    "title": "Pruning Shears",
+    "category": "Equipment",
+    "price": { "min": 180, "max": 450 },
+    "rating": 5,
+    "avg_rating": 4,
+    "total_comments": 34
+  },
+  {
+    "id": 4,
+    "img_link": "https://i.ibb.co/ycWW8grh/image-4.png",
+    "title": "Snake Plant",
+    "category": "Indoor Plant",
+    "price": { "min": 150, "max": 500 },
+    "rating": 5,
+    "avg_rating": 4,
+    "total_comments": 35
+  }
+]

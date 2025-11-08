@@ -1,4 +1,3 @@
-import React from "react";
 import Carousal from "../ui/carousal/Carousal";
 import CtaButton from "../ui/CtaButton";
 
