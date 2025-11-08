@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 @layer components{
+    .content-container{
+        @apply w-[min(90%,1680px)] mx-auto py-3
+    }
     .mobile-nav-icon{
         @apply text-4xl cursor-pointer text-white
     }

@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full bg-primary h-[70px] text-white">
-        <div className="w-[min(90%,1680px)] h-full mx-auto flex flex-col justify-center">
+        <div className="content-container h-full mx-auto flex flex-col justify-center">
           <div className="flex justify-between items-center gap-10">
             {/* Hamburger Menu Icon */}
             <div
