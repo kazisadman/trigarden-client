@@ -13,6 +13,7 @@ import { RiPlantFill } from "react-icons/ri";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { useState } from "react";
 import Sidebar from "./Sidebar";
+import CtaButton from "../ui/CtaButton";
 const Navbar = () => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
 
@@ -72,10 +73,7 @@ const Navbar = () => {
               </ul>
             </div>
             {/* Call button */}
-            <button className="lg:flex items-center gap-2 bg-complementary p-3 rounded-lg hover:bg-white hover:text-black whitespace-nowrap show-lg">
-              <FaPhoneAlt/>
-              <span>Call Now</span>
-            </button>
+           <CtaButton text={'Call Now'} icon={FaPhoneAlt} screen={'lg'}/>
             {/* Search bar */}
             <div className="lg:flex items-center gap-2 bg-transparent border-2 p-1 rounded-lg show-lg">
               <input className="bg-transparent focus:outline-none p-1" placeholder="Search Item" type="text" />

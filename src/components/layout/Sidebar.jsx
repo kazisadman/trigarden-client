@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = ({navLink,sidebarToggle,setSidebarToggle}) => {
   return (
-    <div className="w-2/5 h-screen fixed bg-primary top-0 left-0 show-sm overflow-x-scroll">
+    <div className="w-2/5 h-screen fixed bg-primary top-0 left-0 show-sm overflow-x-scroll z-[99999]">
       <button
         onClick={() => setSidebarToggle(!sidebarToggle)}
         className="absolute top-5 right-5 mobile-nav-icon"
