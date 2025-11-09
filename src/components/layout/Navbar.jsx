@@ -25,7 +25,7 @@ const Navbar = () => {
     },
     {
       name: "Product",
-      link: "product",
+      link: "product/plants",
       icon: <FaBox />,
     },
     {

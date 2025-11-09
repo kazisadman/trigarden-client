@@ -11,9 +11,9 @@ const BreadCrumb = ({ location }) => {
     <div className="py-10">
       {pathNameFormatted.map((item, index) => {
         return index === pathNameFormatted.length - 1 ? (
-          <span>{item}</span>
+          <span key={index}>{item}</span>
         ) : (
-          <span>{item} &gt; </span>
+          <span key={index}>{item} &gt; </span>
         );
       })}
     </div>
