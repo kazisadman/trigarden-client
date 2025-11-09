@@ -14,6 +14,7 @@ import { HiMenuAlt2 } from "react-icons/hi";
 import { useState } from "react";
 import Sidebar from "./Sidebar";
 import CtaButton from "../ui/CtaButton";
+import SearchBar from "../ui/SearchBar";
 const Navbar = () => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
 
@@ -77,17 +78,10 @@ const Navbar = () => {
               text={"Call Now"}
               icon={FaPhoneAlt}
               screen={"lg"}
-              color={"complementory"}
+              color={"complementary"}
             />
             {/* Search bar */}
-            <div className="lg:flex items-center gap-2 bg-transparent border-2 p-1 rounded-lg show-lg">
-              <input
-                className="bg-transparent focus:outline-none p-1"
-                placeholder="Search Item"
-                type="text"
-              />
-              <FaSearch className="text-xl cursor-pointer" />
-            </div>
+            <SearchBar text={"Search Item"} show={'lg'}/>
             {/* User & cart Icon */}
             <div className="mobile-nav-icon flex items-center gap-4">
               <FaShoppingCart />

@@ -14,7 +14,7 @@ const Sidebar = ({navLink,sidebarToggle,setSidebarToggle}) => {
         <ul className="space-y-10">
           {navLink.map((item, index) => {
             return (
-              <NavLink className={"flex space-x-5"} key={index}>
+              <NavLink to={`/${item.link}`} className={"flex space-x-5"} key={index}>
                 <span className="mobile-nav-icon">{item.icon}</span>
                 <span className="text-2xl text-white whitespace-nowrap">
                   {item.name}

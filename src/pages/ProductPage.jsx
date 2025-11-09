@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import BreadCrumb from "../components/ui/BreadCrumb";
-import ProductFilterMenu from "../components/products/ProductFilterMenu";
-import CategoryLink from "../components/products/CategoryLink";
+import ProductFilterMenu from "../components/layout/products/ProductFilterMenu";
+import CategoryLink from "../components/layout/products/CategoryLink";
 import data from "../Data/product.json";
 import ProductCard from "../components/ui/ProductCard";
 import { FaFilter } from "react-icons/fa";
@@ -11,31 +11,31 @@ const ProductPage = () => {
   const links = [
     {
       name: "Home",
-      link: "/home",
+      link: "product/home",
     },
     {
       name: "Plants",
-      link: "/plants",
+      link: "product/plants",
     },
     {
       name: "Tools",
-      link: "/tools",
+      link: "product/tools",
     },
     {
       name: "Fertilizers",
-      link: "/fertilizers",
+      link: "product/fertilizers",
     },
     {
       name: "Seeds",
-      link: "/seeds",
+      link: "product/seeds",
     },
     {
       name: "Medicine",
-      link: "/medicine",
+      link: "product/medicine",
     },
     {
       name: "Equipments",
-      link: "/equipments",
+      link: "product/equipments",
     },
   ];
 
@@ -97,15 +97,10 @@ const ProductPage = () => {
     <>
       <div className="bg-secondary">
         <div className="product-page-container">
-          <ul
-            id="category-link"
-            className="flex justify-center lg:justify-normal flex-wrap gap-5"
-          >
-            <CategoryLink menuList={links} />
-          </ul>
-          <div>
-            <BreadCrumb location={location} />
-          </div>
+          <CategoryLink menuList={links} />
+
+          <BreadCrumb location={location} />
+
           <div className="flex justify-between items-center py-4">
             <CtaButton
               id={"my_modal_3"}
@@ -127,7 +122,7 @@ const ProductPage = () => {
             </select>
           </div>
 
-          {/* Filter Menu */}
+          {/* Filter Menu - Mobile view */}
           <dialog id="my_modal_3" className="modal">
             <div className="modal-box">
               <form method="dialog">
@@ -145,7 +140,9 @@ const ProductPage = () => {
               </form>
             </div>
           </dialog>
+
           <div className="lg:flex lg:justify-between lg:gap-10">
+            {/* Filter Menu - Large View */}
             <div className="bg-white show-lg flex-none h-fit rounded-lg">
               <ProductFilterMenu
                 categoryCheckList={categoryCheckList}
@@ -153,11 +150,14 @@ const ProductPage = () => {
                 lightCheckList={lightCheckList}
               />
             </div>
-            <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-              {data.map((item, index) => {
-                return <ProductCard key={index} data={item} />;
-              })}
-            </ul>
+            <div className="flex flex-col items-center gap-10">
+              <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 w-full">
+                {data.map((item, index) => {
+                  return <ProductCard key={index} data={item} />;
+                })}
+              </ul>
+              <CtaButton text={"Load More Products"} color={"primary"} rounded={"lg"}/>
+            </div>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ const ProductCard = ({ data }) => {
             </span>
           </div>
           <div className="flex items-center gap-1">
-            {totalStar.map((item,index) => {
+            {totalStar.map((item, index) => {
               return item === 0 ? (
                 <span key={index} className="text-3xl text-complementary">
                   &#9733;

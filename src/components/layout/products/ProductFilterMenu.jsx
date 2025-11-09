@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CtaButton from "../ui/CtaButton";
-import CheckList from "../ui/CheckList";
+import CtaButton from "../../ui/CtaButton";
+import CheckList from "../../ui/CheckList";
 
 const ProductFilterMenu = ({
   categoryCheckList,
@@ -39,7 +39,12 @@ const ProductFilterMenu = ({
       <CheckList checkList={lightCheckList} />
 
       <div className="text-center">
-        <CtaButton color={"primary"} text={"Apply Filter"} rounded={"lg"} width={"full"} />
+        <CtaButton
+          color={"primary"}
+          text={"Apply Filter"}
+          rounded={"lg"}
+          width={"full"}
+        />
       </div>
     </div>
   );
