@@ -20,7 +20,7 @@ const Navbar = () => {
   const navLink = [
     {
       name: "Home",
-      link: "home",
+      link: "",
       icon: <FaHome />,
     },
     {
@@ -41,7 +41,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="w-full bg-primary h-[70px] text-white">
+      <nav className="w-full bg-primary h-[91px] text-white">
         <div className="content-container h-full mx-auto flex flex-col justify-center">
           <div className="flex justify-between items-center gap-10">
             {/* Hamburger Menu Icon */}
@@ -77,7 +77,7 @@ const Navbar = () => {
               text={"Call Now"}
               icon={FaPhoneAlt}
               screen={"lg"}
-              color={"complementary"}
+              color={"complementory"}
             />
             {/* Search bar */}
             <div className="lg:flex items-center gap-2 bg-transparent border-2 p-1 rounded-lg show-lg">
