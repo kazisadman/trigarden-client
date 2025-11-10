@@ -2,11 +2,10 @@ import { NavLink } from "react-router-dom";
 
 const CategoryLink = ({ menuList }) => {
   return (
-    <div className="lg:bg-secondary p-5">
-      <p className="hidden lg:block semi-bold-2xl-text">Blog Category</p>
+    <div className="lg:bg-secondary">
       <ul
         id="category-link"
-        className="flex justify-center lg:justify-normal lg:flex-col flex-wrap lg:rounded-xl gap-3"
+        className="flex justify-center lg:justify-start flex-wrap gap-3"
       >
         {menuList.map((link, index) => {
           return (
