@@ -11,7 +11,7 @@ const BlogCategory = ({menuList}) => {
             return (
               <Link
                 to={`/${link.link}`}
-                className="border-2 border-primary lg:border-none text-lg p-2 lg:p-0 rounded-full hover:bg-primary hover:text-white cursor-pointer"
+                className="border-2 border-primary lg:border-none text-lg p-2 rounded-full hover:bg-primary hover:text-white cursor-pointer"
                 key={index}
               >
                 {link.name}

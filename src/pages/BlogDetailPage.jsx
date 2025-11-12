@@ -12,7 +12,7 @@ const BlogDetailPage = () => {
     <div className="space-y-10">
       <div className="bg-white p-3 rounded-lg">
         <div>
-          <img src={img_link} alt="" />
+          <img className="w-full lg:h-[550px] object-cover" src={img_link} alt="" />
           <div className="flex justify-between items-center py-5">
             <p className="text-primary font-semibold">{post_type}</p>
             <div className="flex items-center gap-5">

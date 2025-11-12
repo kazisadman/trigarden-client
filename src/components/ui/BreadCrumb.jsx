@@ -4,14 +4,15 @@ const BreadCrumb = ({ location }) => {
   const pathName = ["Home", ...path];
 
   const pathNameFormatted = pathName.map((item) => {
-    return item.charAt(0).toUpperCase() + item.slice(1);
+    const decode = decodeURIComponent(item)
+    return decode.charAt(0).toUpperCase() + decode.slice(1);
   });
 
   return (
-    <div className="py-10">
+    <div className="py-10 font-medium">
       {pathNameFormatted.map((item, index) => {
         return index === pathNameFormatted.length - 1 ? (
-          <span key={index}>{item}</span>
+          <span className="text-primary" key={index}>{item}</span>
         ) : (
           <span key={index}>{item} &gt; </span>
         );

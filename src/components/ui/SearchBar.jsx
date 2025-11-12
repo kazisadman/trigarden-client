@@ -1,6 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 
-const SearchBar = ({ text, show,borderColor }) => {
+const SearchBar = ({ text, show,borderColor,placeholderColor }) => {
   return (
     <div
       className={`bg-transparent border-2 border-${borderColor} p-3 rounded-lg ${
@@ -9,7 +9,7 @@ const SearchBar = ({ text, show,borderColor }) => {
     >
       <div className="flex justify-between items-center gap-2">
         <input
-          className="bg-transparent focus:outline-none p-1"
+          className={`bg-transparent focus:outline-none p-1 placeholder:text-${placeholderColor}`}
           placeholder={text}
           type="text"
         />

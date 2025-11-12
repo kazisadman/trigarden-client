@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "user_img": "https://i.ibb.co.com/Ldy8CjqF/Hero-2.jpg",
+    "user_name": "Sophia Green",
+    "review_date": "10 November 2025",
+    "how_many_days_ago": "2 days ago",
+    "review": "This potting soil mix worked wonders for my indoor plants! The texture is light and drains well. My ferns have never looked healthier.",
+    "helpful": 42,
+    "not_helpful": 3,
+    "product_img": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png"
+    ],
+    "reply": {
+      "reply": "Thank you for your feedback, Sophia! We're glad your plants are thriving 🌱",
+      "reply_date": "11 November 2025"
+    },
+    "rating": 5,
+    "avg_rating": 5
+  },
+  {
+    "id": 2,
+    "user_img": "https://i.ibb.co.com/Ldy8CjqF/Hero-2.jpg",
+    "user_name": "Ethan Woods",
+    "review_date": "8 November 2025",
+    "how_many_days_ago": "4 days ago",
+    "review": "Good quality seeds. Most of them germinated quickly. However, packaging could be improved to prevent moisture entry.",
+    "helpful": 29,
+    "not_helpful": 1,
+    "product_img": [
+    ],
+    "reply": {
+      "reply": "Thanks for pointing that out, Ethan! We'll work on better packaging.",
+      "reply_date": "9 November 2025"
+    },
+    "rating": 5,
+    "avg_rating": 4
+  },
+  {
+    "id": 3,
+    "user_img": "https://i.ibb.co.com/Ldy8CjqF/Hero-2.jpg",
+    "user_name": "Lily Turner",
+    "review_date": "5 November 2025",
+    "how_many_days_ago": "7 days ago",
+    "review": "Love the garden tool set! Handles feel comfortable and sturdy. Perfect for small backyard gardening tasks.",
+    "helpful": 36,
+    "not_helpful": 2,
+    "product_img": [
+    ],
+    "reply": {
+      "reply": "So glad you’re enjoying the tool set, Lily! 🌼",
+      "reply_date": "6 November 2025"
+    },
+    "rating": 5,
+    "avg_rating": 5
+  },
+  {
+    "id": 4,
+    "user_img": "https://i.ibb.co.com/Ldy8CjqF/Hero-2.jpg",
+    "user_name": "Oliver Bloom",
+    "review_date": "3 November 2025",
+    "how_many_days_ago": "9 days ago",
+    "review": "The watering can is cute and functional, though slightly smaller than I expected. Great for indoor plants!",
+    "helpful": 18,
+    "not_helpful": 0,
+    "product_img": [],
+    "reply": {
+      "reply": "Thank you for sharing, Oliver! We’ll consider offering larger sizes soon.",
+      "reply_date": "4 November 2025"
+    },
+    "rating": 5,
+    "avg_rating": 2
+  }
+]

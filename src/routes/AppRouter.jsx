@@ -5,6 +5,8 @@ import ProductPage from "../pages/ProductPage";
 import BlogPage from "../pages/BlogPage";
 import BlogMainLayout from "../layout/BlogMainLayout";
 import BlogDetailPage from "../pages/BlogDetailPage";
+import ProductDetailPage from "../pages/ProductDetailPage";
+import ProductMainLayout from "../layout/ProductMainLayout";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +18,18 @@ const router = createBrowserRouter([
         element: <Homepage />,
       },
       {
-        path: "/product/plants",
-        element: <ProductPage />,
+        path: "/product",
+        element: <ProductMainLayout />,
+        children:[
+          {
+            path:':category',
+            element:<ProductPage/>
+          },
+          {
+            path:':category/:name',
+            element:<ProductDetailPage/>
+          }
+        ]
       },
       {
         path: "/blog",
@@ -28,9 +40,9 @@ const router = createBrowserRouter([
             element: <BlogPage />,
           },
           {
-            path:":id",
-            element:<BlogDetailPage/>
-          }
+            path: ":id",
+            element: <BlogDetailPage />,
+          },
         ],
       },
     ],

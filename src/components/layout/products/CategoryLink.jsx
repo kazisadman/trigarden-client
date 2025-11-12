@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const CategoryLink = ({ menuList }) => {
+
   return (
     <div className="lg:bg-secondary">
       <ul

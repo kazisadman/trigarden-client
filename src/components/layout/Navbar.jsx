@@ -26,7 +26,7 @@ const Navbar = () => {
     },
     {
       name: "Product",
-      link: "product/plants",
+      link: "product/home",
       icon: <FaBox />,
     },
     {
@@ -81,7 +81,7 @@ const Navbar = () => {
               color={"complementary"}
             />
             {/* Search bar */}
-            <SearchBar text={"Search Item"} show={'lg'}/>
+            <SearchBar text={"Search Item"} show={'lg'} placeholderColor={'white'}/>
             {/* User & cart Icon */}
             <div className="mobile-nav-icon flex items-center gap-4">
               <FaShoppingCart />

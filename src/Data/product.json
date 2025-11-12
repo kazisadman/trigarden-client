@@ -1,83 +1,254 @@
-
 [
   {
     "id": 1,
-    "img_link": "https://i.ibb.co/4ZZw9CSS/image-1.png",
+    "card_img_link": "https://i.ibb.co/4ZZw9CSS/image-1.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Monstera Deliciosa",
-    "category": "Indoor Plant",
+    "category": "plants",
+    "plant_size": [
+      {
+        "size": "small",
+        "price": 240
+      },
+      {
+        "size": "Medium",
+        "price": 350
+      },
+      {
+        "size": "large",
+        "price": 450
+      }
+    ],
+    "pot_size": [
+      {
+        "size": "small",
+        "price": 240
+      },
+      {
+        "size": "Medium",
+        "price": 350
+      },
+      {
+        "size": "large",
+        "price": 450
+      }
+    ],
+    "pot_color": ["#FFFFFF", "#9E6431"],
+    "description": "গোল্ডেন পাথোস (Golden Pothos / Epipremnum aureum) – ঘর সাজানোর জন্য অন্যতম সেরা ও সহজে পরিচর্যা করা যায় এমন ইনডোর প্ল্যান্ট। এর হৃদয় আকৃতির সবুজ পাতায় সোনালি-হলুদ রঙের নকশা থাকে, যা ঘরের যেকোনো কোণকে করে তোলে উজ্জ্বল ও প্রাণবন্ত। এই গাছটি খুবই সহনশীল—কম আলো, মাঝারি আলো কিংবা উজ্জ্বল পরোক্ষ আলো—সব জায়গাতেই মানিয়ে নিতে পারে। তাই নতুন যারা গাছ রাখতে চান, তাদের জন্য এটি একটি পারফেক্ট পছন্দ।গোল্ডেন পাথোস শুধু সৌন্দর্য যোগ করে না, বরং ঘরের বাতাসও বিশুদ্ধ করে, ক্ষতিকর টক্সিন শোষণ করে চারপাশকে আরও স্বাস্থ্যকর রাখে। ঝুলন্ত টব, শেলফ বা টেবিলে রাখলে এটি লতানো ডাল ছড়িয়ে পড়ে, আর নিয়মিত ছাঁটাই করলে সুন্দরভাবে বেড়ে ওঠে। পানি দেওয়াও খুব বেশি প্রয়োজন হয় না—মাটি শুকিয়ে এলে অল্প পানি দিলেই গাছটি সতেজ থাকে।দ্রুত বাড়ার ক্ষমতা, কম যত্নে টিকে থাকা আর সবুজ-হলুদ পাতার ঝলমল রঙের জন্য গোল্ডেন পাথোসকে বলা হয়। এটি একদিকে আপনার ঘর বা অফিসের সৌন্দর্য বাড়াবে, অন্যদিকে এনে দেবে প্রাকৃতিক শান্তি, সতেজতা ও ইতিবাচকতা।",
+    "stock": "In Stock",
     "price": { "min": 2000, "max": 3400 },
     "rating": 5,
     "avg_rating": 5,
-    "total_comments": 24
+    "total_reviews": 24
   },
   {
     "id": 2,
-    "img_link": "https://i.ibb.co/wNy07rbv/image-2.png",
+    "card_img_link": "https://i.ibb.co/wNy07rbv/image-2.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Organic Compost Fertilizer",
-    "category": "Fertilizer",
+    "category": "fertilizers",
+    "plant_size": [
+      { "size": "1kg", "price": 60 },
+      { "size": "2kg", "price": 120 },
+      { "size": "5kg", "price": 440 }
+    ],
+    "pot_size": [],
+    "pot_color": [],
+    "description": "উচ্চ মানের জৈব কম্পোস্ট সার যা গাছের শিকড়ের বৃদ্ধি ও মাটির উর্বরতা বাড়াতে সহায়তা করে। ১০০% প্রাকৃতিক উপাদানে তৈরি, সব ধরনের ইনডোর ও আউটডোর গাছের জন্য উপযুক্ত।",
+    "stock": "In Stock",
     "price": { "min": 60, "max": 440 },
     "rating": 5,
     "avg_rating": 4,
-    "total_comments": 12
+    "total_reviews": 12
   },
   {
     "id": 3,
-    "img_link": "https://i.ibb.co/d4H12KYV/image-3.png",
+    "card_img_link": "https://i.ibb.co/d4H12KYV/image-3.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Pruning Shears",
-    "category": "Equipment",
+    "category": "equipments",
+    "plant_size": [],
+    "pot_size": [],
+    "pot_color": ["#000000", "#FF0000", "#808080"],
+    "description": "স্টেইনলেস স্টিল ব্লেড ও আরামদায়ক হ্যান্ডেলসহ প্রুনিং শিয়ারস গাছের ডালপালা ছাঁটাইয়ের জন্য পারফেক্ট টুল। দীর্ঘস্থায়ী ও সহজে ব্যবহারযোগ্য।",
+    "stock": "In Stock",
     "price": { "min": 180, "max": 450 },
     "rating": 5,
     "avg_rating": 4,
-    "total_comments": 34
+    "total_reviews": 34
   },
   {
     "id": 4,
-    "img_link": "https://i.ibb.co/ycWW8grh/image-4.png",
+    "card_img_link": "https://i.ibb.co/ycWW8grh/image-4.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Snake Plant",
-    "category": "Indoor Plant",
+    "category": "seeds",
+    "plant_size": [
+      { "size": "small", "price": 150 },
+      { "size": "medium", "price": 300 },
+      { "size": "large", "price": 500 }
+    ],
+    "pot_size": [
+      { "size": "small", "price": 150 },
+      { "size": "medium", "price": 300 },
+      { "size": "large", "price": 500 }
+    ],
+    "pot_color": ["#E0E0E0", "#2E7D32"],
+    "description": "স্নেক প্ল্যান্ট বা সানসেভেরিয়া একটি জনপ্রিয় ইনডোর গাছ, যা খুব কম আলো ও পানিতেও বেঁচে থাকতে পারে। এটি বাতাস পরিশুদ্ধ করে ও ঘরে সবুজের স্পর্শ আনে।",
+    "stock": "In Stock",
     "price": { "min": 150, "max": 500 },
     "rating": 5,
     "avg_rating": 4,
-    "total_comments": 35
+    "total_reviews": 35
   },
   {
-    "id": 1,
-    "img_link": "https://i.ibb.co/4ZZw9CSS/image-1.png",
+    "id": 5,
+    "card_img_link": "https://i.ibb.co/4ZZw9CSS/image-1.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Monstera Deliciosa",
-    "category": "Indoor Plant",
+    "category": "plants",
+    "plant_size": [
+      {
+        "size": "small",
+        "price": 240
+      },
+      {
+        "size": "Medium",
+        "price": 350
+      },
+      {
+        "size": "large",
+        "price": 450
+      }
+    ],
+    "pot_size": [
+      {
+        "size": "small",
+        "price": 240
+      },
+      {
+        "size": "Medium",
+        "price": 350
+      },
+      {
+        "size": "large",
+        "price": 450
+      }
+    ],
+    "pot_color": ["#FFFFFF", "#9E6431"],
+    "description": "গোল্ডেন পাথোস (Golden Pothos / Epipremnum aureum) – ঘর সাজানোর জন্য অন্যতম সেরা ও সহজে পরিচর্যা করা যায় এমন ইনডোর প্ল্যান্ট। এর হৃদয় আকৃতির সবুজ পাতায় সোনালি-হলুদ রঙের নকশা থাকে, যা ঘরের যেকোনো কোণকে করে তোলে উজ্জ্বল ও প্রাণবন্ত। এই গাছটি খুবই সহনশীল—কম আলো, মাঝারি আলো কিংবা উজ্জ্বল পরোক্ষ আলো—সব জায়গাতেই মানিয়ে নিতে পারে। তাই নতুন যারা গাছ রাখতে চান, তাদের জন্য এটি একটি পারফেক্ট পছন্দ।গোল্ডেন পাথোস শুধু সৌন্দর্য যোগ করে না, বরং ঘরের বাতাসও বিশুদ্ধ করে, ক্ষতিকর টক্সিন শোষণ করে চারপাশকে আরও স্বাস্থ্যকর রাখে। ঝুলন্ত টব, শেলফ বা টেবিলে রাখলে এটি লতানো ডাল ছড়িয়ে পড়ে, আর নিয়মিত ছাঁটাই করলে সুন্দরভাবে বেড়ে ওঠে। পানি দেওয়াও খুব বেশি প্রয়োজন হয় না—মাটি শুকিয়ে এলে অল্প পানি দিলেই গাছটি সতেজ থাকে।দ্রুত বাড়ার ক্ষমতা, কম যত্নে টিকে থাকা আর সবুজ-হলুদ পাতার ঝলমল রঙের জন্য গোল্ডেন পাথোসকে বলা হয়। এটি একদিকে আপনার ঘর বা অফিসের সৌন্দর্য বাড়াবে, অন্যদিকে এনে দেবে প্রাকৃতিক শান্তি, সতেজতা ও ইতিবাচকতা।",
+    "stock": "In Stock",
     "price": { "min": 2000, "max": 3400 },
     "rating": 5,
     "avg_rating": 5,
-    "total_comments": 24
+    "total_reviews": 24
   },
   {
-    "id": 2,
-    "img_link": "https://i.ibb.co/wNy07rbv/image-2.png",
+    "id": 6,
+    "card_img_link": "https://i.ibb.co/wNy07rbv/image-2.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Organic Compost Fertilizer",
-    "category": "Fertilizer",
+    "category": "fertilizers",
+    "plant_size": [
+      { "size": "1 kg", "price": 60 },
+      { "size": "2 kg", "price": 120 },
+      { "size": "5 kg", "price": 440 }
+    ],
+    "pot_size": [],
+    "pot_color": [],
+    "description": "উচ্চ মানের জৈব কম্পোস্ট সার যা গাছের শিকড়ের বৃদ্ধি ও মাটির উর্বরতা বাড়াতে সহায়তা করে। ১০০% প্রাকৃতিক উপাদানে তৈরি, সব ধরনের ইনডোর ও আউটডোর গাছের জন্য উপযুক্ত।",
+    "stock": "In Stock",
     "price": { "min": 60, "max": 440 },
     "rating": 5,
     "avg_rating": 4,
-    "total_comments": 12
+    "total_reviews": 12
   },
   {
-    "id": 3,
-    "img_link": "https://i.ibb.co/d4H12KYV/image-3.png",
+    "id": 7,
+    "card_img_link": "https://i.ibb.co/d4H12KYV/image-3.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Pruning Shears",
-    "category": "Equipment",
+    "category": "equipments",
+    "plant_size": [],
+    "pot_size": [],
+    "pot_color": ["#000000", "#FF0000", "#808080"],
+    "description": "স্টেইনলেস স্টিল ব্লেড ও আরামদায়ক হ্যান্ডেলসহ প্রুনিং শিয়ারস গাছের ডালপালা ছাঁটাইয়ের জন্য পারফেক্ট টুল। দীর্ঘস্থায়ী ও সহজে ব্যবহারযোগ্য।",
+    "stock": "In Stock",
     "price": { "min": 180, "max": 450 },
     "rating": 5,
     "avg_rating": 4,
-    "total_comments": 34
+    "total_reviews": 34
   },
   {
-    "id": 4,
-    "img_link": "https://i.ibb.co/ycWW8grh/image-4.png",
+    "id": 8,
+    "card_img_link": "https://i.ibb.co/ycWW8grh/image-4.png",
+    "img_link": [
+      "https://i.ibb.co.com/mCnzvWD4/product-image-1.png",
+      "https://i.ibb.co.com/23dndvkR/product-image-2.png",
+      "https://i.ibb.co.com/h577FFw/product-image-3.png",
+      "https://i.ibb.co.com/dwdm3QrX/product-image-4.png",
+      "https://i.ibb.co.com/PsLZ7bM4/product-image-5.png"
+    ],
     "title": "Snake Plant",
-    "category": "Indoor Plant",
+    "category": "seeds",
+    "plant_size": [
+      { "size": "small", "price": 150 },
+      { "size": "medium", "price": 300 },
+      { "size": "large", "price": 500 }
+    ],
+    "pot_size": [
+      { "size": "small", "price": 150 },
+      { "size": "medium", "price": 300 },
+      { "size": "large", "price": 500 }
+    ],
+    "pot_color": ["#E0E0E0", "#2E7D32"],
+    "description": "স্নেক প্ল্যান্ট বা সানসেভেরিয়া একটি জনপ্রিয় ইনডোর গাছ, যা খুব কম আলো ও পানিতেও বেঁচে থাকতে পারে। এটি বাতাস পরিশুদ্ধ করে ও ঘরে সবুজের স্পর্শ আনে।",
+    "stock": "In Stock",
     "price": { "min": 150, "max": 500 },
     "rating": 5,
     "avg_rating": 4,
-    "total_comments": 35
+    "total_reviews": 35
   }
 ]
