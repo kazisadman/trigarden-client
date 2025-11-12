@@ -1,16 +1,58 @@
-# React + Vite
+# TriGarden
+A frontend application for the TriGarden platform — built with React, Vite, Tailwind CSS & DaisyUI, and powered by React Router DOM for routing.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview  
+This is the client-side of the TriGarden project, which aims to provide users with an engaging gardening marketplace / informational hub (adjust this description to your actual goal).  
+Key features include:  
+- Homepage with responsive layout  
+- Category, Featured, Popular, Blog, and Product pages  
+- Shared UI components (buttons, cards, layouts)  
+- Dynamic routing (via React Router) for product and blog detail pages  
+- Mobile-first, fully responsive design  
+- Carousel components implemented with Swiper.js  
+- Tailwind CSS + DaisyUI for rapid UI building
 
-Currently, two official plugins are available:
+## 🧰 Getting Started  
+### Prerequisites  
+Make sure you have Node.js (version 14+ recommended) and npm installed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation  
+```bash
+# Clone the repository
+git clone https://github.com/kazisadman/trigarden-client.git  
+cd trigarden-client  
 
-## React Compiler
+# Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Start the dev server
+npm run dev
 
-## Expanding the ESLint configuration
+# Build for production
+npm run build  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Preview the production build locally
+npm run preview
+```
+
+## 🔧 Features & Usage
+
+- Dynamic Routing with layouts (Product, Blog)
+
+- Reusable Components: ProductCard, BlogCard, CategoryCard, SectionTitle
+
+- Responsive Design using Tailwind utilities
+
+- Carousel/Swipe: Swiper.js for featured/popular product sections
+
+- Shared UI: DaisyUI + Tailwind for consistent design
+
+# URL Structure
+
+- /                         → MainLayout → Home
+- /product/:category        → ProductMainLayout → ProductPage
+- /product/:category/:name  → ProductMainLayout → ProductDetailPage
+- /blog                     → BlogMainLayout → BlogPage
+- /blog/:id                 → BlogMainLayout → BlogDetailPage
+
+
