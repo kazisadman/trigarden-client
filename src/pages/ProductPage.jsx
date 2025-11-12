@@ -73,7 +73,6 @@ const ProductPage = () => {
 
   handleData();
 
-  console.log(productData);
   return (
     <>
       <div className="flex justify-between items-center py-4">
