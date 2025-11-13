@@ -1,6 +1,6 @@
 import { FaCamera } from "react-icons/fa";
 import CtaButton from "../ui/CtaButton";
-import ai_clinic from '../../assets/Ai_clinic.jpg'
+import ai_clinic from '../../assets/Ai_Clinic.jpg'
 
 const PlantClinic = () => {
   return (
